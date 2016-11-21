@@ -17,10 +17,10 @@ MIN_WHAT_RATIO = 1.3
 # Whether the frequent sync will make sure ReleaseInfo is there. Leave False.
 SYNC_SYNCS_FILES = False
 # You might set this to ssl.what.cd is what.cd has a long downtime, but ssl is up.
-WHAT_CD_DOMAIN = 'what.cd'
+WHAT_CD_DOMAIN = 'nostream.co'
 WHAT_UPLOAD_URL = 'https://{0}/upload.php'.format(WHAT_CD_DOMAIN)
 # Only for uploading
-WHAT_ANNOUNCE = 'http://tracker.what.cd:34000/SET THIS TO YOUR ANNOUNCE/announce'
+WHAT_ANNOUNCE = 'http://tracker.nostream.co:34000/SET THIS TO YOUR ANNOUNCE/announce'
 
 # Set this to something reasonable that only you know.
 TRANSMISSION_PASSWORD = '9dqQQ2WW'
